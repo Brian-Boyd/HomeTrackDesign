@@ -1,0 +1,207 @@
+<html>
+<head>
+  <title></title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <div class="header">
+      <!-- logo, top nav and head title -->
+        <div class="header-left"><h1 class="tac">The IronYard<br>King of Code</h1></div>
+        <div class="header-right">
+          123 Corporate Way<br>
+          (888) 888-8888<br>
+          KingCode@gmail.com
+        </div>
+    </div><!-- end header -->
+
+    <div class="nav-main">
+      <!-- logo, top nav and head title -->
+      <div class="nav-left">
+        <ul>
+          <li><a href="/" class="nav-list-item">Home</a></li>
+          <li><a href="/" class="nav-list nav-list-item">Locations</a></li>
+          <li><a href="/" class="nav-list nav-list-item">Courses</a></li>
+          <li><a href="/" class="nav-list nav-list-item">Students</a></li>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <form id="search-blog" method="get"
+          action="">
+            <!-- <input type="search" /> -->
+            <input type="submit" value="Login" class="pull-right" />
+        </form>
+      </div>
+    </div><!-- end navbar -->
+
+    <div class="billboard-container">
+      <div class="billboard-left">
+        
+      </div>
+      <div class="billboard-right">
+        <form action="" method="post" class="application-form">
+        <h3 class="center">Enrollment Form</h3>
+        <p></p>
+        <p class="name"><label style="display: none;" for="name" id="name">Name (required)</label>
+          <input placeholder="Name (required)" name="name" value="" size="30" class="" type="text"> </p>
+        <p class="email"><label style="display: none;" for="email" id="email">Email (required)</label>
+          <input placeholder="Email (required)" name="email" value="" size="30" class="" type="email"> </p>
+        <p class="phone"><label style="display: none;" for="phone-contact">Phone Contact</label>
+          <input placeholder="Phone Contact" name="phone-contact" value="" size="30" class="" type="tel"></p>
+        <p class="date"><label style="display: none;" for="date" id="date">Date YYYY-MM-DD</label>
+          <input id="" placeholder="Date YYYY-MM-DD" name="date" value="" size="30" class="" type="text"></p>
+        <p class="select-location">
+          <select name="menu" class="">
+            <option value="Select Location">Select Location</option>
+            <option value="Atlanta, GA">Atlanta, GA</option>
+            <option value="Charleston, SC">Charleston, SC</option>
+            <option value="Greenville, SC">Greenville, SC</option>
+        </select></p>
+        <p class="select-course">
+          <select name="menu" class="">
+            <option value="Select Course">Select Course</option>
+            <option value="Front-End">Front-End</option>
+            <option value="Rails">Rails</option>
+            <option value="IOS">IOS</option>
+        </select></p>
+        <p><input value="Application" class="" type="submit"></p>
+        <p class="terms"><a href="">Terms and Conditions</a></p>
+        </form>
+      </div>
+    </div><!-- end billboard-container -->
+
+    <div class="billboard-bottom-container">
+      <div class="billboard-bottom-left">
+        <h2>Learn to code. Get a job. Guaranteed.</h2>
+        <p>The Iron Yard Academy teaches intensive, three-month courses that mentor you into a professional junior-level programmer. Our program goes far beyond tactical skills and teaches you to think like a software engineer. Programming is a lifelong study, and our process shows you to learn how to learn so you remain highly valuable for the rest of your career.</p>
+      </div>
+    </div><!-- end billboard-bottom-container -->
+
+    <div class="left-column">
+      <!-- your main content -->
+      <div class="main-content-home">
+        <div class="col-md-4 col-sm-6">
+          <div class="col-item">
+            <div class="photo">
+              <a href="#"><img src="http://placehold.it/275x150"></a>
+            </div>
+            <div class="info">
+              <div class="row">
+                <div class="course_info">
+                  <h4>Front End Engineering</h4>
+                  <p>Lorem ipsum dolor sit amet, no sit sonet corpora indoctum, quo ad fierent insolens. Duo aeterno ancillae ei. </p>
+                </div>
+              </div>
+              <div class="separator clearfix">
+                <p class="btn-details pull-right"><a href=""><i class="glyphicon glyphicon-list-alt"></i> Details</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <div class="col-item">
+            <div class="photo">
+              <a href="#"><img src="http://placehold.it/275x150"></a>
+            </div>
+            <div class="info">
+              <div class="row">
+                <div class="course_info">
+                  <h4>Rails Engineering</h4>
+                  <p>Lorem ipsum dolor sit amet, no sit sonet corpora indoctum, quo ad fierent insolens. Duo aeterno ancillae ei. </p>
+                </div>
+              </div>
+              <div class="separator clearfix">
+                <p class="btn-details pull-right"><a href=""><i class="glyphicon glyphicon-list-alt"></i> Details</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <div class="col-item">
+            <div class="photo">
+              <a href="#"><img src="http://placehold.it/275x150"></a>
+            </div>
+            <div class="info">
+              <div class="row">
+                <div class="course_info">
+                  <h4>Mobile Engineering</h4>
+                  <p>Lorem ipsum dolor sit amet, no sit sonet corpora indoctum, quo ad fierent insolens. Duo aeterno ancillae ei. </p>
+                </div>
+              </div>
+              <div class="separator clearfix">
+                <p class="btn-details pull-right"><a href=""><i class="glyphicon glyphicon-list-alt"></i> Details</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <p>We are going to be creating a project to keep track of your homework submissions. You will have user authentication to control user homework submissions. A user will submit many assignments as well. The format of the data will be based on Iron Yard location. I should be able to make as many TIY locations as I want. Each location will also have an unlimited number of classes. For instance, if we open a back-end class in the future using Clojure, I should be able to add that as a cohort. Each student (during user registration) should be able to select multiple locations/cohorts to assign themselves to.</p>
+
+        <p>There will also be an admin user (the instructor/TA!) that is there to grade the homework assignments as complete or incomplete. The instructor should register just like any other user. They will have to select locations/cohorts. The difference is there should be an admin interface. Any pre-existing admin should be able to edit any user and make them an admin.</p>
+
+        <p>When an instructor/TA views a cohort, they should be able to see all students and homeworks for the cohorts they are assigned to. When they click into a homework assignment, they should be able to view the comment stream and add whatever they deem necessary. If an additional student views the cohort, they should be able to see the assignments, BUT NOT THE HOMEWORK SUBMISSIONS. https://github.com/ryanb/cancan - That gem may help with that</p>
+
+        <p>A instructor/TA/admin user should be able to create homework assignments. The students will have submissions to that specific homework assignment. Each student can only submit ONCE per submission. Students should be able to edit their submissions.</p>
+
+        <p>As a student, when submitting homework, I should be able to fill out all necessary information as well as adding any links deemed necessary. I should be able to edit this homework as well if the instructor requests additional information. Once the homework is submitted, only the instructor should be able to change it's workflow state.</p>
+
+        <p>When viewing the homework assignment or a submission, there should be a comment stream. The student and instructor should be able to communicate with each other via this comment stream (very similar to GitHub pull requests) on the submission. All of the students for that cohort should be able to ask general questions about the assignment that all other students should be able to see.</p>
+
+        <p>When a comment is created, an email needs to be sent to the opposite user. For example, when a student creates a comment, an email message needs to be send to the instructor (if it's on a submission) or all of the other students (if it's on a homework assignment). When an instructor creates a comment, an email needs to be sent to the student (if it's on a submission) or all of the students (if it's on a homework assignment). The email needs to contain the content of the comment as well.</p>
+
+        <p>Requirements:</p>
+
+        <ul>
+          <li>User authentication</li>
+            <ul>
+              <li>Normal User (students)</li>
+              <li>Admin User (instructors)</li>
+            </ul>
+          <li>Workflow for homework</li>
+            <ul>
+              <li>New</li>
+              <li>Reviewing</li>
+              <li>Complete</li>
+              <li>Incomplete</li>
+            </ul>
+         <li> Data fields for homework</li>
+            <ul>
+              <li>Name</li>
+              <li>Homework assignments should be able to have many links</li>
+                <ul>
+                  <li>For example: I should be able to add a heroku link, a github link, and whatever else I want to add</li>
+                  <li>https://github.com/ryanb/nested_form - This gem will help you guys out here</li>
+                  <li>https://coderwall.com/p/qwx3qa</li>
+                </ul>
+              <li>Description</li>
+            </ul>
+          <li>Comment Stream</li>
+          <li>100% Styled. This MUST look good! This is going to be huge on your portfolio</li>
+        </ul>
+
+      </div>
+    </div><!-- end main content -->
+
+    <div class="footer">
+      <!-- your footer -->
+      <div class="footer-logo"></div>
+      <div class="footer-copyright">
+        &copy; 2014 Brian Boyd<br>An Ironyard Student Project
+      </div>
+      <div class="footer-right">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Locations</a></li>
+          <li><a href="#">Courses</a></li>
+          <li><a href="#">Students</a></li>
+        </ul>
+      </div>
+    </div><!-- end footer -->
+
+  </div><!-- end container -->
+
+</body>
+</html>
